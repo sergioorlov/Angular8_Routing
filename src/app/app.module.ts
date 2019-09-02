@@ -9,6 +9,7 @@ import { PostComponent } from './post/post.component';
 import { PostsComponent } from './posts/posts.component';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing/app-routing.module';
+import { ErrorPageComponent } from './error-page/error-page.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
     AboutExtraComponent,
     HomeComponent,
     PostComponent,
-    PostsComponent
+    PostsComponent,
+    ErrorPageComponent
   ],
   imports: [
     BrowserModule,
